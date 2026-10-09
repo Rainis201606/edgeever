@@ -6,8 +6,6 @@ name: Update deployed EdgeEver
 # The rare customized Fork must explicitly opt in to merge preservation.
 
 on:
-  schedule:
-    - cron: "30 19 * * *"
   workflow_dispatch:
     inputs:
       channel:
